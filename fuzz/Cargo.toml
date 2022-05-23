@@ -23,3 +23,21 @@ name = "mail_parser"
 path = "fuzz_targets/mail_parser.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "parse_date"
+path = "fuzz_targets/parse_date.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "parse_raw"
+path = "fuzz_targets/parse_raw.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "parse_header_name"
+path = "fuzz_targets/parse_header_name.rs"
+test = false
+doc = false
