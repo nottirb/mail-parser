@@ -1,0 +1,7 @@
+project: mail-parser
+target: parse_date
+
+# image: ghcr.io/nottirb/mail-parser:latest
+
+cmds:
+    - cmd: /parse_date

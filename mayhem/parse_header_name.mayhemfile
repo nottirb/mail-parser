@@ -1,0 +1,7 @@
+project: mail-parser
+target: parse_header_name
+
+# image: ghcr.io/nottirb/mail-parser:latest
+
+cmds:
+    - cmd: /parse_header_name
